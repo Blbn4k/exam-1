@@ -1,0 +1,20 @@
+.section-tour {
+  background-image: url(../img/section3/section2_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 230px 0 100px;
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__wrapper {
+    max-width: 540px;
+    width: 100%;
+    background-color: #222222e8;
+    padding: 50px 30px;
+    color: white;
+  }
+}

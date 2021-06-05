@@ -12,4 +12,22 @@ body {
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  background: linear-gradient(
+    45deg,
+    rgba(73, 107, 254, 1) 43%,
+    rgba(84, 116, 253, 1) 43%,
+    rgba(84, 116, 253, 1) 43%
+  );
+  border: none;
+  color: white;
+  font-family: $aleo;
+  text-transform: uppercase;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 24px 40px;
+  cursor: pointer;
 }
