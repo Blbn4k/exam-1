@@ -147,6 +147,24 @@ body {
   font-size: 24px;
 }
 
+.header-cover__scroll {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: auto 0;
+  -webkit-transform: translateY(400%);
+          transform: translateY(400%);
+}
+
+.header-cover__scroll p {
+  font-weight: 14px;
+}
+
+.fa-chevron-down {
+  opacity: 0.6;
+}
+
 .header-menu {
   background-color: #5474fd;
 }
