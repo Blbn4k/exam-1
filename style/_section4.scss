@@ -1,0 +1,66 @@
+.section-reviews {
+  background-image: url(../img/section5/section4_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0 200px;
+  color: #e8e8e8;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title h3 {
+    font-family: $aleo;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+  }
+
+  &__photo {
+    max-width: 445px;
+    width: 100%;
+    min-height: 285px;
+    background-image: url(../img/section5/section4_tourist.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__comment {
+    background-color: #333333;
+    padding: 50px 50px 50px 60px;
+    max-width: 665px;
+    width: 100%;
+  }
+
+  &__name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &__text p::first-letter {
+    font-size: 150%;
+  }
+}
+
+.fa-quote-left {
+  color: #5474fd;
+}
