@@ -980,6 +980,62 @@ body {
   }
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .header-cover {
+    background-image: url(../img/footer/footer_bg2x.jpg);
+  }
+  .section-advantages {
+    background-image: url(../img/section1/section1_bg2x.jpg);
+  }
+  .section-advantages__item:first-child {
+    background-image: url(../img/section1/section1_house2x.png);
+  }
+  .section-advantages__item:last-child {
+    background-image: url(../img/section1/section_mount2x.png);
+  }
+  .section-tour {
+    background-image: url(../img/section3/section2_bg2x.jpg);
+  }
+  .section-tour--alternative {
+    background-image: url(../img/section4/section3_bg2x.jpg);
+  }
+  .section-reviews {
+    background-image: url(../img/section5/section4_bg2x.jpg);
+  }
+  .section-reviews__photo {
+    background-image: url(../img/section5/section4_tourist2x.png);
+  }
+  /* 2x Retina styles here */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (min-device-pixel-ratio: 3), only screen and (-webkit-min-device-pixel-ratio: 4), only screen and (min-resolution: 384dpi), only screen and (min-resolution: 3dppx) {
+  .header-cover {
+    background-image: url(../img/footer/footer_bg3x.jpg);
+  }
+  .section-advantages {
+    background-image: url(../img/section1/section1_bg3x.jpg);
+  }
+  .section-advantages__item:first-child {
+    background-image: url(../img/section1/section1_house3x.png);
+  }
+  .section-advantages__item:last-child {
+    background-image: url(../img/section1/section_mount3x.png);
+  }
+  .section-tour {
+    background-image: url(../img/section3/section2_bg3x.jpg);
+  }
+  .section-tour--alternative {
+    background-image: url(../img/section4/section3_bg3x.jpg);
+  }
+  .section-reviews {
+    background-image: url(../img/section5/section4_bg3x.jpg);
+  }
+  .section-reviews__photo {
+    background-image: url(../img/section5/section4_tourist3x.png);
+  }
+  /* 3x Retina styles here */
+}
+
 /*
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Aleo', serif;
