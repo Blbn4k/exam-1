@@ -14,7 +14,7 @@
   background-size: cover;
   background-position: center;
   min-height: calc(100vh - 94px);
-  padding: 265px 0 0;
+  padding-top: 30vh;
 }
 
 .header-cover__wrapper {
@@ -86,10 +86,18 @@
   cursor: pointer;
   max-width: 150px;
   width: 100%;
-
+  transition: all 0.3s;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &:hover {
+    background-color: #3358fa;
+  }
+
+  &:active {
+    background-color: #647ff7;
+  }
 }
 
 .icon-search {
@@ -155,4 +163,11 @@
   font-family: $aleo;
   font-size: 14px;
   line-height: 100%;
+
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: white;
+  }
 }
