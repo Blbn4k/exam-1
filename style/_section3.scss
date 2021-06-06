@@ -50,3 +50,15 @@
 .section-tour__container--alternative {
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 960px) {
+  .section-tour {
+    padding: 100px 0 60px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .section-tour__wrapper {
+    text-align: center;
+  }
+}

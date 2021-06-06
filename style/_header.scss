@@ -3,9 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: stretch;
-  flex-grow: 1;
-  flex-shrink: 0;
 }
 
 @media screen and (max-width: 960px) {
@@ -70,6 +67,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 @media screen and (max-width: 540px) {
@@ -146,8 +144,12 @@
   font-weight: 300;
   letter-spacing: 2px;
   margin: auto 0;
+}
 
-  transform: translateY(400%);
+@media screen and (max-width: 540px) {
+  .header-cover__scroll {
+    display: none;
+  }
 }
 
 .header-cover__scroll p {
