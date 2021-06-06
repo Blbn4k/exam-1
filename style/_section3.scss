@@ -13,7 +13,11 @@
   &__wrapper {
     max-width: 540px;
     width: 100%;
-    background-color: #222222e8;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.755171568627451) 35%,
+      rgba(0, 0, 0, 0.7571603641456583) 35%
+    );
     padding: 50px 30px;
     color: #e8e8e8;
   }

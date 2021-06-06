@@ -722,7 +722,8 @@ body {
 .section-tour__wrapper {
   max-width: 540px;
   width: 100%;
-  background-color: #222222e8;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(35%, rgba(0, 0, 0, 0.755172)), color-stop(35%, rgba(0, 0, 0, 0.75716)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.755172) 35%, rgba(0, 0, 0, 0.75716) 35%);
   padding: 50px 30px;
   color: #e8e8e8;
 }
